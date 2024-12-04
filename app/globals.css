@@ -27,7 +27,7 @@ body {
 }
 
 #text:hover {
-  text-shadow: 0 0 0.1em #fff;
+  text-shadow: 0 0 0.1em black;
 }
 
 /* Animate the text shadow on hover */
@@ -37,21 +37,21 @@ body {
 
 @keyframes hover-effect {
   0% {
-    text-shadow: 0 0 0.1em #fff;
+    text-shadow: 0 0 0.1em black;
   }
   20% {
-    text-shadow: 0 0 0.2em #fff;
+    text-shadow: 0 0 0.2em black;
   }
   40% {
-    text-shadow: 0 0 0.3em #fff;
+    text-shadow: 0 0 0.3em black;
   }
   60% {
-    text-shadow: 0 0 0.4em #fff;
+    text-shadow: 0 0 0.4em black;
   }
   80% {
-    text-shadow: 0 0 0.5em #fff;
+    text-shadow: 0 0 0.5em black;
   }
   100% {
-    text-shadow: 0 0 0.1em #fff;
+    text-shadow: 0 0 0.1em black;
   }
 }
