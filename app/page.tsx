@@ -18,7 +18,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Coming soon...
+          A1 SUPREMACY
         </a>
       </footer>
     </div>
