@@ -8,16 +8,51 @@ export default function Home() {
           className="dark:primary-color"
               src="/Lyvam.svg"
               alt="Lyvam logomark"
-             width={256}
-            height={256}
+             width={1024}
+            height={1024
           />
+	<div>
+		<a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                  target="_blank"
+                  rel="noopener noreferrer">
+		  GAME</a>
+		<a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                  target="_blank"
+                  rel="noopener noreferrer">
+		  PROJECT</a>
+		<a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                  target="_blank"
+                  rel="noopener noreferrer">
+		  GITHUB</a>
+	</div>
+	<div>
+                <a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                  target="_blank"
+                  rel="noopener noreferrer">
+		  STUDIO</a>
+		<a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                  target="_blank"
+                  rel="noopener noreferrer">
+		  HISTORY</a>
+                <a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                  target="_blank"
+                  rel="noopener noreferrer">
+		  REPORT</a>
+	</div>
+	<div>
+		<a 
+		  className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          	  target="_blank"
+          	  rel="noopener noreferrer">
+		  DOWNLOAD
+		</a>
+	</div> 
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer" >
           A1 SUPREMACY
         </a>
       </footer>
