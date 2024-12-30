@@ -9,7 +9,7 @@ export default function Home() {
               src="/Lyvam.svg"
               alt="Lyvam logomark"
              width={1024}
-            height={1024
+            height={1024}
           />
 	<div>
 		<a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
