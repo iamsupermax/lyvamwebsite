@@ -12,36 +12,36 @@ export default function Home() {
             height={1024}
           />
 	<div className="flex column">
-		<a className="flex row gap-2 hover:underline hover:underline-offset-4"
+		<a className="flex row space-around gap-2 hover:underline hover:underline-offset-4 --font-climate-crisis"
                   target="_blank"
                   rel="noopener noreferrer">
 		  GAME</a>
-		<a className="flex row gap-2 hover:underline hover:underline-offset-4"
+		<a className="flex row space-around gap-2 hover:underline hover:underline-offset-4 --font-climate-crisis"
                   target="_blank"
                   rel="noopener noreferrer">
 		  PROJECT</a>
-		<a className="flex row gap-2 hover:underline hover:underline-offset-4"
+		<a className="flex row space-around gap-2 hover:underline hover:underline-offset-4 --font-climate-crisis"
                   target="_blank"
                   rel="noopener noreferrer">
 		  GITHUB</a>
 	</div>
 	<div className="flex column">
-                <a className="flex row gap-2 hover:underline hover:underline-offset-4"
+                <a className="flex row space-around gap-2 hover:underline hover:underline-offset-4 --font-climate-crisis"
                   target="_blank"
                   rel="noopener noreferrer">
 		  STUDIO</a>
-		<a className="flex row gap-2 hover:underline hover:underline-offset-4"
+		<a className="flex row space-around gap-2 hover:underline hover:underline-offset-4 --font-climate-crisis"
                   target="_blank"
                   rel="noopener noreferrer">
 		  HISTORY</a>
-                <a className="flex row gap-2 hover:underline hover:underline-offset-4"
+                <a className="flex row space-around gap-2 hover:underline hover:underline-offset-4 --font-climate-crisis"
                   target="_blank"
                   rel="noopener noreferrer">
 		  REPORT</a>
 	</div>
 	<div className="flex column">
 		<a 
-		  className="flex row gap-2 hover:underline hover:underline-offset-4"
+		  className="flex row space-around gap-2 hover:underline hover:underline-offset-4 "
           	  target="_blank"
           	  rel="noopener noreferrer">
 		  DOWNLOAD
