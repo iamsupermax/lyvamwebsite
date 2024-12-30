@@ -16,7 +16,7 @@ const ClimateCrisis = localFont({
   src : "./fonts/ClimateCrisis-2050.woff2",
   variable: "--font-climate-crisis",
   weight: "436 70",
-
+});
 export const metadata: Metadata = {
   title: "LYVAM Studio",
   description: "new way to educate",
