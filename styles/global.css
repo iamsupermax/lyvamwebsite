@@ -1,0 +1,37 @@
+@font-face{
+	font-family:"Climate-Crisis";
+	src:
+    	local("Climate-Crisis"),
+    	url("../public/ClimateCrisis-Variable.woff2") format("woff2")  tech(variations);
+}
+
+html, body {
+    background-color:white;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-family:"Climate-Crisis";
+}
+h1{
+    font-family: "Climate-Crisis";
+    color:black;
+}
+h2{
+    font-family: "Climate-Crisis";
+    color:black;
+}
+h3{
+    font-family: "Climate-Crisis";
+    color:black;
+}
+p {
+    font-family: "Climate-Crisis";
+    line-height: 1.3em;
+    color:black;
+}

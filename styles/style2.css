@@ -1,0 +1,56 @@
+header{
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	background-color: transparent;
+  	border-bottom: solid 1px #4158D9;
+    
+}
+.navbar2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#logo2{
+	width:20%;
+	padding-right:20%;
+	
+}
+
+.nav-item{
+	font-family: "Climate-Crisis";
+	font-size:40px;
+	color:white;
+	margin: 2%;
+  	-webkit-text-stroke: 2px #4158D9;
+}
+#nav-present{
+	-webkit-text-stroke: 2px #ECD14E;
+	color:#ECD14E;
+	letter-spacing: .1rem;
+}
+#nav-present:hover{
+	color:white;
+	letter-spacing: .1rem;
+}
+.nav-item:hover{
+        color:#4158D9;
+}
+#nav-download{
+	font-size:40px;
+	color:#ECD14E;
+	-webkit-text-stroke: 2px #ECD14E;
+	letter-spacing: .1rem;
+}
+#nav-download:hover{
+	color:white;
+}
+/*========*/
+.core{
+	margin:5%;
+}
+
+
+
+
+
