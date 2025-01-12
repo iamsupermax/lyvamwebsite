@@ -18,7 +18,7 @@ header{
 }
 
 .nav-item{
-	font-family: "Climate-Crisis";
+	font-family: "Climate-Crisis79";
 	font-size:40px;
 	color:white;
 	margin: 2%;
@@ -46,7 +46,70 @@ header{
 	color:white;
 }
 
+.core{
+	margin:0% 5% 0% 5%;
+}
+/*TEAM STUDIO*/ 
+.row1{ /*ALSO USE IN CREDITS*/
+	display:flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding:0% 5% 0% 5%;
+}
+.row2{
+	display:flex;
+	justify-content: center;
+	flex-direction: row;
+}
+#team{
+	margin:5%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
 
+}
+#team img{
+	border: 2px solid transparent;
+	positio:relative;
+}
+
+.p-name{
+	margin:0 0 0 35%;
+	font-family: "Climate-Crisis79";
+	letter-spacing: 0.1rem;
+}
+
+/* CREDITS */
+.container-lc{
+	display:flex;
+	justify-content:center ;
+	height:30%;
+	width:40%;
+	margin:5%;
+}
+
+#logo-unity{
+	padding-top:15%;
+}
+#logo-rider{
+	width:90%;
+	height:90%;
+}
+#logo-github{
+	width:60%;
+	height:60%;
+}
+#logo-vercel{
+	padding-top:20%;
+}
+#logo-discord{
+	width:65%;
+	height: 80%;
+}
+#logo-sublimtext{
+	width:80%;
+	height: 80%;
+}
 
 
 
