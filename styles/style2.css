@@ -89,6 +89,21 @@ header{
 	width:40%;
 	margin:5%;
 }
+#info{
+	color: black;
+	opacity: 0;
+	transform: translateY(30%) translateX(-200%);
+	transition: 0.5s;
+}
+.container-lc:hover {
+	> #info{
+		opacity:1;
+	}
+	>.img{
+		opacity:0;
+	}
+}				
+
 
 #logo-unity{
 	padding-top:15%;
@@ -100,9 +115,12 @@ header{
 #logo-github{
 	width:60%;
 	height:60%;
+	padding-top:5%;
+	padding-bottom:5%;
 }
 #logo-vercel{
 	padding-top:20%;
+	padding-bottom:20%;
 }
 #logo-discord{
 	width:65%;
@@ -111,6 +129,29 @@ header{
 #logo-sublimtext{
 	width:80%;
 	height: 80%;
+}
+#logo-figma{
+	width:80%;
+	height: 80%;
+}
+#logo-dicebear{
+	width:50%;
+	height:50%;
+	margin-top:10%;
+	padding-bottom:10%;
+}
+#logo-assetstore{
+	width:100%;
+	height:100%;
+	margin-top:30%;
+	padding-bottom:30%;
+}
+#logo-blender{
+	margin-top:10%;
+}
+#logo-affinity{
+	width:50%;
+	height:50%;
 }
 /* GAME */
 .rowgame{ /*ALSO USE IN CREDITS*/
