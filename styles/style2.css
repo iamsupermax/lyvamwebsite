@@ -10,18 +10,20 @@ header{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	margin-right: 2%;
+}
+#logo-a{
+	width:15%;
+	margin-right:10%;
 }
 #logo2{
-	width:20%;
-	padding-right:20%;
 	
 }
 
 .nav-item{
-	font-family: "Climate-Crisis";
 	font-size:40px;
 	color:white;
-	margin: 2%;
+	margin: 2% 2% 3% 2%;
   	-webkit-text-stroke: 2px #4158D9;
 }
 #nav-present{
@@ -46,7 +48,165 @@ header{
 	color:white;
 }
 
+.core{
+	margin:0% 5% 0% 5%;
+}
+/*TEAM STUDIO*/ 
+.row{ /*ALSO USE IN CREDITS*/
+	display:flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding:0% 5% 0% 5%;
+}
+.row2{
+	display:flex;
+	justify-content: center;
+	flex-direction: row;
+}
+#team{
+	margin:5%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+#team img{
+	border: 2px solid transparent;
+	positio:relative;
+}
+
+.p-name{
+	margin:0 0 0 35%;
+	font-family: "Climate-Crisis79";
+	letter-spacing: 0.1rem;
+}
+
+/* CREDITS */
+.container-lc{
+	display:flex;
+	justify-content:center ;
+	height:30%;
+	width:40%;
+	margin:5%;
+}
+#info{
+	color: black;
+	opacity: 0;
+	transform: translateY(30%) translateX(-200%);
+	transition: 0.5s;
+}
+.container-lc:hover {
+	> #info{
+		opacity:1;
+	}
+	>.img{
+		opacity:0;
+	}
+}				
 
 
+#logo-unity{
+	padding-top:15%;
+}
+#logo-rider{
+	width:90%;
+	height:90%;
+}
+#logo-github{
+	width:60%;
+	height:60%;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+#logo-vercel{
+	padding-top:20%;
+	padding-bottom:20%;
+}
+#logo-discord{
+	width:65%;
+	height: 80%;
+}
+#logo-sublimtext{
+	width:80%;
+	height: 80%;
+}
+#logo-figma{
+	width:80%;
+	height: 80%;
+}
+#logo-dicebear{
+	width:50%;
+	height:50%;
+	margin-top:10%;
+	padding-bottom:10%;
+}
+#logo-assetstore{
+	width:100%;
+	height:100%;
+	margin-top:30%;
+	padding-bottom:30%;
+}
+#logo-blender{
+	margin-top:10%;
+}
+#logo-affinity{
+	width:50%;
+	height:50%;
+}
+/* GAME */
+.rowgame{ /*ALSO USE IN CREDITS*/
+	display:flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	margin-top:10%;
+	margin-left:0;
+}
+.coregame{
+	margin:0% 5% 0% 5%;
+}
+.column{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#version-h3{
+	margin-left:0px;
+}
+.dwl-button{
+	background-color:#4158D9;
+	border: solid 1px #4158D9;
+	width:120%;
+	height:120%;
+}
+.dwl-a{
+	font-size:20px;
+	color:white;
+	margin: 2%;
+  	-webkit-text-stroke: 2px #4158D9;
+  	letter-spacing: 0.1rem;
+}
+.dwl-button:hover{
+	background-color:white;
+	>.dwl-a{
+		color:#4158D9;
+	}
+}
 
-
+.dwl-button-r{
+	background-color:white;
+	border: solid 1px white;
+	width:120%;
+	height:120%;
+}
+.dwl-a-r{
+	font-size:20px;
+	color:#4158D9;
+	margin: 2%;
+  	letter-spacing: 0.1rem;
+}
+.dwl-button-r:hover{
+	background-color:#4158D9;
+	>.dwl-a-r{
+		color:white;
+	}
+}

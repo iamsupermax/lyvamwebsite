@@ -1,10 +1,9 @@
 @font-face{
-	font-family:"Climate-Crisis";
+	font-family:"Climate-Crisis79";
 	src:
-    	local("Climate-Crisis"),
-    	url("../public/ClimateCrisis-Variable.woff2") format("woff2")  tech(variations);
+    	local("Climate-Crisis-1979"),
+    	url("../public/ClimateCrisis-1979.woff2") format("woff2");
 }
-
 html, body {
     background-color:white;
     
@@ -16,22 +15,24 @@ img {
 
 a {
     text-decoration: none;
-    font-family:"Climate-Crisis";
+    font-family:"Climate-Crisis79";
 }
 h1{
-    font-family: "Climate-Crisis";
+    font-family: "Climate-Crisis79";
     color:black;
 }
 h2{
-    font-family: "Climate-Crisis";
+    font-family: "Climate-Crisis79";
     color:black;
+    margin-bottom: 0;
 }
 h3{
-    font-family: "Climate-Crisis";
+    font-family: "Climate-Crisis79";
     color:black;
 }
 p {
-    font-family: "Climate-Crisis";
-    line-height: 1.3em;
+    font-family: "Sanomat";
+    font-size: 1.125rem;
+    line-height: 1.5;
     color:black;
 }
