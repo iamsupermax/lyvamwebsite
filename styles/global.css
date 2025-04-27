@@ -1,8 +1,8 @@
 @font-face{
-	font-family:"Climate-Crisis79";
+    font-family:"Reconnect-font";
 	src:
-    	local("Climate-Crisis-1979"),
-    	url("../public/ClimateCrisis-1979.woff2") format("woff2");
+    	local("Reconnect_Regular_Font"),
+    	url("../public/Reconnect_Regular_Font.otf") format("opentype");
 }
 html, body {
     background-color:white;
@@ -15,23 +15,23 @@ img {
 
 a {
     text-decoration: none;
-    font-family:"Climate-Crisis79";
+    font-family:"Reconnect-font";
 }
 h1{
-    font-family: "Climate-Crisis79";
+    font-family: "Reconnect-font";
     color:black;
 }
 h2{
-    font-family: "Climate-Crisis79";
+    font-family: "Reconnect-font";
     color:black;
     margin-bottom: 0;
 }
 h3{
-    font-family: "Climate-Crisis79";
+    font-family: "Reconnect-font";
     color:black;
 }
 p {
-    font-family: "Sanomat";
+    font-family: "inter";
     font-size: 1.125rem;
     line-height: 1.5;
     color:black;
