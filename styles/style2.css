@@ -16,9 +16,6 @@ header{
 	width:15%;
 	margin-right:10%;
 }
-#logo2{
-	
-}
 
 .nav-item{
 	font-size:40px;
@@ -157,15 +154,8 @@ header{
 	display:flex;
 	justify-content: space-evenly;
 	flex-direction: row;
-	margin-top:10%;
-	margin-left:0;
-}
-.rowgame2{ /*ALSO USE IN CREDITS*/
-	display:flex;
-	justify-content: center;
-	flex-direction: row;
-	margin-top:0%;
-	margin-left:16%;
+	margin:5% 0% 5% 0%;
+
 }
 .coregame{
 	margin:0% 5% 0% 5%;
@@ -175,10 +165,9 @@ header{
 	flex-direction: column;
 	justify-content: center;
 }
-.column2{
+.column a{
 	display:flex;
-	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 }
 #version-h3{
 	margin-left:0px;
@@ -186,8 +175,9 @@ header{
 .dwl-button{
 	background-color:#4158D9;
 	border: solid 1px #4158D9;
-	width:120%;
-	height:120%;
+	min-width: 200px;
+	height: auto;
+	padding: 10% 5% 10% 5%;
 }
 .dwl-a{
 	font-size:30px;
