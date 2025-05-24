@@ -6,7 +6,8 @@
 }
 html, body {
     background-color:white;
-    
+    margin:0%;
+    padding:0%;
 }
 
 img {
@@ -15,7 +16,8 @@ img {
 
 a {
     text-decoration: none;
-    font-family:"Reconnect-font";
+    font-family:"Arial", sans-serif;
+    font-weight: 600;
 }
 h1{
     font-family: "Reconnect-font";
