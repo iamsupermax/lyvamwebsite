@@ -111,8 +111,59 @@ iframe { /*trailer*/
 	width: 100%;
 }
 
+/*CREDITS*/
+.band{
+	display: flex;
+  	justify-content: space-around;
+	flex-direction: row;
+  	align-items: center;
+  	background-color: transparent;
+    top: 0;
+  	left: 0;
+  	right: 0;
+	padding: 5% 0% 2% 0%;
+}
 
-
+#affinity-logo{
+	width:4%;
+	height:auto;
+}
+#blender-logo{
+	width:4%;
+	height:auto;
+}
+#dicebear-logo{
+	width:4%;
+	height:auto;
+}
+#discord-logo{
+	width:4%;
+	height:auto;
+}
+#figma-logo{
+	width:4%;
+	height:auto;
+}
+#github-logo{
+	width:4%;
+	height:auto;
+}
+#rider-logo{
+	width:4%;
+	height:auto;
+}
+#sublimtext-logo{
+	width:4%;
+	height:auto;
+}
+#unity-logo{
+	width:4%;
+	height:auto;
+}
+#vercel-logo{
+	width:4%;
+	height:auto;
+}
 
 /* OTHERS */
 header{
@@ -234,9 +285,19 @@ header{
 	display:flex;
 	justify-content: center;
 	font-size:20px;
+	color:#4158D9;
+	margin: 2%;
+  	letter-spacing: 0.1rem;
+}
+.dwl-a2:hover{
+	color:#ECD14E;
+}
+.dwl-a3{
+	display:flex;
+	justify-content: center;
+	font-size:20px;
 	color:white;
 	margin: 2%;
-  	-webkit-text-stroke: 2px #4158D9;
   	letter-spacing: 0.1rem;
 }
 .dwl-button:hover{
