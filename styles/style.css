@@ -84,10 +84,12 @@
 
 
 /* GAME */
-video { /*trailer*/
+iframe { /*trailer*/
 	margin:2% 5% 0% 5%;
-  	max-width: 90%;
-  	height: auto;
+	min-width:1152px;
+	min-height:648px;
+  	max-width: 1920px;
+  	max-height: 1080px;
   	border-radius: 20px;
 }
 .core-div{
